@@ -6,8 +6,7 @@ import javax.ws.rs.core.Application;
 /**
  * Configures a JAX-RS endpoint.
  */
-
-@ApplicationPath("resources")
+@ApplicationPath("rest")
 public class RestResources extends Application {
 
 }
